@@ -1,0 +1,23 @@
+{
+  "name": "nest-job-manager",
+  "version": "0.0.1",
+  "description": "A package to handle job manager submissions through nest",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Launay G",
+  "repository": {"type": "git", "url": "https://github.com/MMSB-MOBI/nest-job-manager.git"},
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^8.2.6",
+    "@nestjs/config": "^1.1.6",
+    "class-validator": "^0.13.2",
+    "ms-jobmanager": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12"
+  }
+}
